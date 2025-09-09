@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyek | Adrian Fadlan</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <nav>
+  <div class="container">
+    <ul>
+      <li><a href="index.html" class="active"><i class="fas fa-home"></i></a></li>
+      <li><a href="about.html"><i class="fas fa-user"></i></a></li>
+      <li><a href="portfolio.html"><i class="fas fa-briefcase"></i></a></li>
+      <li><a href="gallery.html"><i class="fas fa-image"></i></a></li>
+      <li><a href="contact.html"><i class="fas fa-envelope"></i></a></li>
+    </ul>
+    <button id="dark-mode-toggle"></button>
+  </div>
+</nav>
+
+  <section class="container">
+    <h2>Proyek Office Saya</h2>
+
+    <!-- Filter -->
+    <div class="portfolio-filters">
+      <button class="filter-btn" data-filter="word">Word</button>
+      <button class="filter-btn" data-filter="excel">Excel</button>
+      <button class="filter-btn" data-filter="ppt">PowerPoint</button>
+    </div>
+
+    <!-- Portfolio grid -->
+    <div class="portfolio-grid">
+      <div class="portfolio-item" data-category="word">
+        <img src="Word.png" alt="Project 1">
+        <div class="content">
+          <h3>Laporan Kuliah</h3>
+          <p>Dokumen Word profesional dengan format rapi, tabel, dan daftar isi otomatis.</p>
+        </div>
+      </div>
+      <div class="portfolio-item" data-category="excel">
+        <img src="Excel.png" alt="Project 2">
+        <div class="content">
+          <h3>Analisis Data</h3>
+          <p>Spreadsheet Excel dengan formula, pivot, dan grafik interaktif.</p>
+        </div>
+      </div>
+      <div class="portfolio-item" data-category="ppt">
+        <img src="Ppt.png" alt="Project 3">
+        <div class="content">
+          <h3>Presentasi Kuliah</h3>
+          <p>Slide PowerPoint interaktif dengan desain profesional dan animasi menarik.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Adrian Fadlan | Semua Hak Dilindungi
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

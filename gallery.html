@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeri | Adrian Fadlan</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+ <nav>
+  <div class="container">
+    <ul>
+      <li><a href="index.html" class="active"><i class="fas fa-home"></i></a></li>
+      <li><a href="about.html"><i class="fas fa-user"></i></a></li>
+      <li><a href="portfolio.html"><i class="fas fa-briefcase"></i></a></li>
+      <li><a href="gallery.html"><i class="fas fa-image"></i></a></li>
+      <li><a href="contact.html"><i class="fas fa-envelope"></i></a></li>
+    </ul>
+    <button id="dark-mode-toggle"></button>
+  </div>
+</nav>
+
+  <section class="container">
+    <h2>Galeri Kegiatan</h2>
+    <div class="gallery-grid">
+      <img src="P.jpg" alt="Galeri 1">
+      <img src="3.jpg" alt="Galeri 2">
+      <img src="4.jpg" alt="Galeri 3">
+      <img src="5.jpg" alt="Galeri 4">
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox">
+  <span class="close">&times;</span>
+  <img class="lightbox-content" id="lightbox-img">
+</div>
+
+  <footer>
+    © 2025 Adrian Fadlan | Semua Hak Dilindungi
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
